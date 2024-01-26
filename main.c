@@ -94,7 +94,7 @@ typedef struct conta conta;
 	bool Abertura_de_conta( pessoa p, int tipo_de_conta ) {
 		conta c;
 	//	int n = 02;
-		c.numero_conta = totalContas + 1;
+		c.numero_conta = totalContas + 201000;
 
 		c.estado = 0;
 		c.codigo_cliente = p.codigo;
